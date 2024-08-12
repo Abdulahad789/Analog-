@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'popines';
+    src: url(./Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'futurk';
+    src: url(./futurak.ttf);
+}
+@font-face {
+    font-family: 'bulter';
+    src: url(./Butler/Butler_Black.otf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: popines;
+}
+
+:root{
+    --black: rgb(15 15 15);
+    --Red:#ed1c24;
+    --White: #ffffff;
+    --Green: #28a745;
+}
+.bg{
+    background-color: #000000;
+}
+.bg2{
+    background-color:var(--White) ;
+    color: #000000;
+}
+
+.text-white{
+    color: #ffffff; 
+}
+.d-flex{
+    display: flex;
+}
+.text-decoration{
+    text-decoration: none;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-center{
+   justify-content: center; 
+}
+.justify-rewers{
+    justify-content: flex-start;
+}
+.m-top{
+    margin-top: 10px;
+}
+.m-2{
+    margin-top: 50px;
+}
+.m-3{
+    margin-top:10%;
+}
+.align-item{
+    align-items: center;
+    
+}
+.text-center{
+    text-align: center;
+}
+.gap1{
+   gap: 30px;
+}
+
+.padding{
+    padding: 70px;
+}
+.width{
+    width: 25%;
+    border-radius: 2px;
+}
+.logo{
+    font-family: futurk;
+    font-weight: 400px;
+    font-size: 52px;
+}
+.logo2{
+    font-family:bulter ;
+    font-size: 48px;
+    /* font-weight: ; */
+}
+.logo3{
+    font-family: popine;
+    font-size: 3rem;
+}
+.city{
+    letter-spacing: 10px;
+    font-size: medium;
+    color: var(--Red);
+}
+.space{
+    letter-spacing: 5px;
+    font-size: larger;
+}
+.text{
+    font-family: bulter;
+    font-size: 2.5rem;
+    
+}
+.p2{
+    font-size: 1.5rem;
+    color: #808080;
+}
+.width1{
+    width: 326px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.bg4{
+    background-color: #0f0f0f;
+}
+
+.padding1{
+    padding: 10px;
+}
